@@ -1,27 +1,29 @@
 # Healthcare-Analytics
-#  Healthcare Analytics: Patient Visit Risk Tracker
+# Healthcare Analytics: Patient Outcomes & Risk Tracker
 
-This repository showcases SQL-driven insights into patient visit patterns, missed appointments, and risk stratification. Built with real-world healthcare logic, it supports hospital administrators in identifying high-risk patients and optimizing care delivery.
+This repository showcases SQL-driven insights into patient visit patterns, recovery trends, and risk stratification. Built with real-world healthcare logic, it supports hospital administrators in identifying high-risk patients, reducing readmissions, and optimizing care delivery.
 
-##  Project Overview
+## Project Overview
 
-- **Dataset**: Simulated patient visit records with status and cost
-- **Focus**: Missed appointments, average cost per visit, and patient risk levels
+- **Dataset**: Simulated patient visit records with status, procedure, department, and cost
+- **Focus**: Missed appointments, recovery time, readmission flags, and patient risk levels
 - **Tools Used**: SQL (PostgreSQL), Tableau (optional), Markdown commentary
 
-##  Business Logic
+## Business Logic
 
-Patients who miss multiple appointments are flagged as **High Risk**, enabling proactive outreach and care continuity. The query calculates:
+This project models how hospitals can use data to improve patient outcomes and operational efficiency:
 
-- Total visits per patient
-- Missed visit count
-- Average cost per visit
-- Risk status: `Stable`, `Monitor`, or `High Risk`
+- Patients who miss multiple appointments are flagged as **High Risk**
+- Recovery time is calculated from admission to discharge
+- Readmissions within 30 days are flagged for follow-up
+- Outcome status is classified as `Recovered`, `Complicated`, or `Ongoing`
+- Trends are tracked by department, procedure, and month
 
 This logic supports:
-- Reducing missed appointments
-- Prioritizing patient follow-up
-- Modeling cost impact of missed care
+- Reducing missed appointments and readmissions
+- Prioritizing patient follow-up and discharge planning
+- Modeling cost impact of delayed or missed care
+- Strategic resource allocation based on recovery trends
 
-##  Repository Structure
+## Repository Structure
 
