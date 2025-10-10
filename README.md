@@ -27,3 +27,10 @@ This logic supports:
 
 ## Repository Structure
 
+## Dashboards
+
+Explore recruiter-facing Tableau dashboards built from SQL logic and healthcare performance data:
+
+- **Hospital Score Explorer**  
+  Highlights top-performing hospitals based on readmission scores.  
+  [View on Tableau Public](https://public.tableau.com/app/profile/marcus.wright5122/viz/HospitalScoreExplorer/HospitalScoreExplorer)
